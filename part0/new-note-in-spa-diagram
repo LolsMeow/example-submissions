@@ -1,0 +1,7 @@
+sequenceDiagram
+    browser->>: POST https://studies.cs.helsinki.fi/exampleapp/new_note_spa [{
+    "content": "meow",
+    "date": "2023-06-09T03:55:01.489Z"
+    }, application/json, ]
+    activate server
+    deactivate server
